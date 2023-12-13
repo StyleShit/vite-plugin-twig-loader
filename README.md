@@ -58,7 +58,6 @@ And then, add the following line to your `tsconfig.json`:
 
 ```JSON
 {
-	// ...
 	"include": [
 		"src/types/**/*.d.ts"
 	]
