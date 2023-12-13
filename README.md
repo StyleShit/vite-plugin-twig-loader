@@ -41,7 +41,7 @@ App.render({
 
 ## Usage with TypeScript:
 
-By default, TypsScript won't know how to handle Twig files. To fix this, you can add a declaration file to your project:
+By default, TypsScript won't know how to handle Twig files. To fix this, you can add a declaration file to the project:
 
 ```TS
 // src/types/twig.d.ts
@@ -54,7 +54,7 @@ declare module '*.twig' {
 }
 ```
 
-And then, add the following line to your `tsconfig.json`:
+And then, make sure it's being included in your `tsconfig.json`:
 
 ```JSON
 {
